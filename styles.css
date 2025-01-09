@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f4f4f9;
+}
+
+header {
+  background-color: #6200ea;
+  color: white;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center; /* Center all text in footer */
+}
+
+footer p,
+footer address {
+  margin: 10px 0; /* Add space between each paragraph */
+  font-size: 16px; /* Optional: Adjust font size */
+}
+
+footer a {
+  color: #ff9800; /* Make sure the link is styled properly */
+}
+
+footer address {
+  font-style: normal; /* Remove italics from address */
+}
